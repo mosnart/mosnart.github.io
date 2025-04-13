@@ -3,45 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>mOSn - Font Fallback Demo</title>
-  <style>
-    @font-face {
-      font-family: 'Botuna';
-      src: url('fonts/woff2/Botuna-Bold.woff2') format('woff2'),
-           url('fonts/woff/Botuna-Bold.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;
-    }
-
-    body {
-      background-color: #b8860b;
-      font-family: 'Botuna', Georgia, 'Times New Roman', serif;
-      color: white;
-      text-align: center;
-      padding: 50px;
-    }
-
-    p {
-      margin-bottom: 20px;
-      font-size: 1.2em;
-    }
-
-    img {
-      max-width: 100%;
-      height: auto;
-      margin-bottom: 20px;
-    }
-  </style>
+  <title>mOSn</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>mOSn</h1>
-  <p>human+machine</p>
+  <p>human<span class="strict-fallback">@</span>machine</p>
   <p>m<span class="strict-fallback">@</span>mosn.art</p>
   <p>COLLECTION I</p>
   <p>L’Arcano Vivente - The Living Tarot</p>
   <img src="images/00_The Fool_thumb.png" alt="The Fool tarot card">
   <hr style="margin: 40px auto; width: 60%; border: 1px solid white;">
   <h2>Fallback Character Demo</h2>
-  <p>Test: m@mosn.art — collection@tarot.com — ☯ — ©2025 — ∞</p>
+  <p>Test: m<span class="strict-fallback">@</span>mosn.art — collection<span class="strict-fallback">@</span>tarot.com — ☯ — ©2025 — ∞</p>
 </body>
 </html>
