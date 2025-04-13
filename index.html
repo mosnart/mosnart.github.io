@@ -21,5 +21,16 @@
 
   <h2>OO — Il Matto — The Fool</h2>
   <p>☯ — © — ∞</p>
+
+  <script>
+    document.querySelectorAll('.card-hover').forEach(card => {
+      const video = card.querySelector('video');
+      card.addEventListener('mouseenter', () => {
+        video.currentTime = 0;
+        video.play();
+      });
+    });
+  </script>
 </body>
 </html>
+
