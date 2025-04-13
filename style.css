@@ -7,9 +7,9 @@
 }
 
 body {
-  background-color: #b8860b;
+  background-color: #000000;
   font-family: 'Botuna', Georgia, 'Times New Roman', serif;
-  color: white;
+  color: #b8860b;
   text-align: center;
   padding: 50px;
 }
