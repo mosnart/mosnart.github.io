@@ -53,10 +53,11 @@ body {
   font-family: 'Botuna Black Slant', sans-serif;
 }
 
-.fallback {
-  font-family: Georgia, 'Times New Roman', serif;
+.strict-fallback {
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-weight: bold;
   font-size: 1.1em;
   position: relative;
   top: 1px;
 }
+
