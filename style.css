@@ -30,7 +30,7 @@ img {
 
 .card-hover {
   position: relative;
-  width: 300px;
+  display: inline-block; /* Use image's native size */
   margin: 40px auto;
 }
 
