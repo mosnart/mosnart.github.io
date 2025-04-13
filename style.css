@@ -2,55 +2,27 @@
   font-family: 'Botuna';
   src: url('fonts/woff2/Botuna-Bold.woff2') format('woff2'),
        url('fonts/woff/Botuna-Bold.woff') format('woff');
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
-}
-
-@font-face {
-  font-family: 'Botuna Black';
-  src: url('fonts/woff2/Botuna-Black.woff2') format('woff2'),
-       url('fonts/woff/Botuna-Black.woff') format('woff');
-  font-weight: 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Botuna Slant';
-  src: url('fonts/woff2/Botuna-BoldSlanted.woff2') format('woff2'),
-       url('fonts/woff/Botuna-BoldSlanted.woff') format('woff');
-  font-weight: bold;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Botuna Black Slant';
-  src: url('fonts/woff2/Botuna-BlackSlanted.woff2') format('woff2'),
-       url('fonts/woff/Botuna-BlackSlanted.woff') format('woff');
-  font-weight: 900;
-  font-style: italic;
 }
 
 body {
   background-color: #b8860b;
+  font-family: 'Botuna', Georgia, 'Times New Roman', serif;
   color: white;
   text-align: center;
   padding: 50px;
 }
 
-.bold {
-  font-family: 'Botuna', sans-serif;
+p {
+  margin-bottom: 20px;
+  font-size: 1.2em;
 }
 
-.black {
-  font-family: 'Botuna Black', sans-serif;
-}
-
-.slant {
-  font-family: 'Botuna Slant', sans-serif;
-}
-
-.blackslant {
-  font-family: 'Botuna Black Slant', sans-serif;
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 .strict-fallback {
@@ -60,4 +32,3 @@ body {
   position: relative;
   top: 1px;
 }
-
