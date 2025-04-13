@@ -7,7 +7,7 @@
 
 body {
   background-color: #000;
-  color: #b8860b;
+  color: white;
   font-family: 'BotunaLimited', Georgia, 'Times New Roman', serif;
   text-align: center;
   padding: 50px;
@@ -22,15 +22,9 @@ p {
   font-size: 1.2em;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-}
-
 .card-hover {
   position: relative;
-  display: inline-block; /* Use image's native size */
+  display: inline-block;
   margin: 40px auto;
 }
 
@@ -54,4 +48,3 @@ img {
 .card-hover:hover video {
   opacity: 1;
 }
-
