@@ -3,24 +3,67 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>mOSn</title>
-  <link rel="stylesheet" href="style.css">
+  <title>mOSn — The Living Tarot</title>
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    body {
+      background: white;
+      color: black;
+      font-family: Courier, monospace;
+      margin: 0;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    h1, h2 {
+      font-weight: normal;
+      margin: 0.5em 0;
+    }
+
+    .card-hover {
+      display: inline-block;
+      position: relative;
+      width: 300px;
+      margin: 2rem auto;
+    }
+
+    .card-hover img,
+    .card-hover video {
+      width: 100%;
+      display: block;
+    }
+
+    .card-hover video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+    }
+
+    .card-hover:hover video {
+      opacity: 1;
+    }
+  </style>
 </head>
 <body>
   <h1>mOSn</h1>
   <p>m@mosn.art</p>
   <p>COLLECTION I</p>
-  <p>L'Arcano Vivente - The Living Tarot</p>
+  <p>L'Arcano Vivente — The Living Tarot</p>
 
   <div class="card-hover">
-    <img src="images/00_The_Fool_thumb.webp" alt="The Fool tarot card">
+    <img src="/images/00_The_Fool_thumb.webp" alt="The Fool tarot card">
     <video muted autoplay loop playsinline class="hover-video">
-      <source src="videos/00_The_Fool_loop.mp4" type="video/mp4">
+      <source src="/videos/00_The_Fool_loop.mp4" type="video/mp4">
     </video>
   </div>
 
-  <h2>OO — Il Matto — The Fool</h2>
+  <h2>00 — Il Matto — The Fool</h2>
   <p>☯ — © — ∞</p>
+
+  <p><a href="/projects.html">← back to projects</a></p>
 
   <script>
     document.querySelectorAll('.card-hover').forEach(card => {
