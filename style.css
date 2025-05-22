@@ -27,7 +27,7 @@ html, body {
   margin: 0;
   padding: 2rem;
   background: #111;
-  color: #FFD700;
+  color: #e6c200
   font-family: 'Meroona', Georgia, 'Times New Roman', serif;
   font-size: 18px;
   line-height: 1.6;
@@ -39,7 +39,7 @@ h1 {
   font-size: 2.5em;
   font-weight: normal;
   margin-bottom: 1rem;
-  color: #FFD700;
+  color: #e6c200
 }
 
 h2 {
@@ -47,7 +47,7 @@ h2 {
   font-size: 1.8em;
   font-weight: normal;
   margin-bottom: 1rem;
-  color: #FFD700;
+  color: #e6c200
 }
 
 h3 {
