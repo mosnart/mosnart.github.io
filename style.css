@@ -21,7 +21,7 @@ html, body {
   background: white;
   color: black;
   font-family: 'Meroona', Georgia, 'Times New Roman', serif;
-  font-size: 18px;
+  font-size: 27px;
   line-height: 1.6;
   text-align: center;
 }
@@ -30,6 +30,7 @@ html, body {
 h1, h2, h3 {
   font-family: 'Bravecho', serif;
   font-weight: normal;
+  font-size: 70px;
   margin-bottom: 1rem;
 }
 
