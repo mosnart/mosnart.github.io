@@ -1,51 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>The Living Tarot</title>
-    <style>
-      html, body {
-        margin: 0;
-        padding: 0;
-        background: white;
-        color: black;
-        font-family: Courier, monospace;
-        font-size: 16px;
-      }
-      main {
-        padding: 2em;
-        max-width: 600px;
-        margin: 10vh auto;
-        text-align: center;
-      }
-      h1 {
-        margin: 0 0 0.5em 0;
-        font-weight: normal;
-      }
-      img {
-        max-width: 100%;
-        height: auto;
-        margin: 2em 0;
-      }
-      a {
-        color: black;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-    </style>
-  </head>
-  <body>
-    <main>
-      <h1>The Living Tarot</h1>
-      <p>a deck in motion</p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mOSn</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>mOSn</h1>
+  <p>m@mosn.art</p>
+  <p>COLLECTION I</p>
+  <p>L'Arcano Vivente - The Living Tarot</p>
 
-      <!-- Main Tarot Card image -->
-      <img src="/images/the-fool.jpg" alt="The Fool card" />
+  <div class="card-hover">
+    <img src="images/00_The_Fool_thumb.webp" alt="The Fool tarot card">
+    <video muted autoplay loop playsinline class="hover-video">
+      <source src="videos/00_The_Fool_loop.mp4" type="video/mp4">
+    </video>
+  </div>
 
-      <p><a href="/projects.html">← back to projects</a></p>
-    </main>
-  </body>
+  <h2>OO — Il Matto — The Fool</h2>
+  <p>☯ — © — ∞</p>
+
+  <script>
+    document.querySelectorAll('.card-hover').forEach(card => {
+      const video = card.querySelector('video');
+      card.addEventListener('mouseenter', () => {
+        video.currentTime = 0;
+        video.play();
+      });
+    });
+  </script>
+</body>
 </html>
