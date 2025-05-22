@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mOSn</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>mOSn</h1>
+  <p>m@mosn.art</p>
+  <p>COLLECTION I</p>
+  <p>L'Arcano Vivente - The Living Tarot</p>
 
+  <div class="card-hover">
+    <img src="images/00_The_Fool_thumb.webp" alt="The Fool tarot card">
+    <video muted autoplay loop playsinline class="hover-video">
+      <source src="videos/00_The_Fool_loop.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <h2>OO — Il Matto — The Fool</h2>
+  <p>☯ — © — ∞</p>
+
+  <script>
+    document.querySelectorAll('.card-hover').forEach(card => {
+      const video = card.querySelector('video');
+      card.addEventListener('mouseenter', () => {
+        video.currentTime = 0;
+        video.play();
+      });
+    });
+  </script>
+</body>
+</html>
