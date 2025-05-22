@@ -4,86 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>mOSn — The Living Tarot</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 2rem;
-      background: white;
-      color: black;
-      font-family: Courier, monospace;
-    }
 
-    h1, h2, p {
-      text-align: center;
-      font-weight: normal;
-    }
-
-    .three-col {
-      display: grid;
-      grid-template-columns: 1fr auto 1fr;
-      gap: 2rem;
-      align-items: start;
-      max-width: 1200px;
-      margin: 4rem auto;
-    }
-
-    .column {
-      font-size: 0.95rem;
-    }
-
-    .card-hover {
-      position: relative;
-      width: 300px;
-      margin: 0 auto;
-    }
-
-    .card-hover img,
-    .card-hover video {
-      width: 100%;
-      display: block;
-    }
-
-    .card-hover video {
-      position: absolute;
-      top: 0;
-      left: 0;
-      opacity: 0;
-      transition: opacity 0.3s ease;
-      pointer-events: none;
-    }
-
-    .card-hover:hover video {
-      opacity: 1;
-    }
-
-    img.side-image {
-      max-width: 100%;
-      height: auto;
-      margin: 1rem 0;
-      display: block;
-    }
-
-    @media (max-width: 800px) {
-      .three-col {
-        display: block;
-      }
-      .column {
-        margin-bottom: 2rem;
-      }
-      .card-hover {
-        margin: 2rem auto;
-      }
-    }
-
-    a {
-      color: black;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <!-- Link to stylesheet now located at the root -->
+  <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
   <h1>mOSn</h1>
@@ -93,7 +16,7 @@
 
   <div class="three-col">
     <div class="column left">
-      <p>This is your **left-side text** block. Use it to describe the symbolism, cultural context, or process.</p>
+      <p>This is your <strong>left-side text</strong> block. Use it to describe the symbolism, cultural context, or process.</p>
       <img src="/images/optional-left.jpg" alt="Optional Left Visual" class="side-image" />
     </div>
 
@@ -105,7 +28,7 @@
     </div>
 
     <div class="column right">
-      <p>This is your **right-side text** block. Use it for interpretation, meaning, or poetic reflection.</p>
+      <p>This is your <strong>right-side text</strong> block. Use it for interpretation, meaning, or poetic reflection.</p>
       <img src="/images/optional-right.jpg" alt="Optional Right Visual" class="side-image" />
     </div>
   </div>
