@@ -1,19 +1,29 @@
 @font-face {
-  font-family: 'BotunaLimited';
-  src: url('fonts/woff2/Botuna-Bold.woff2') format('woff2'),
-       url('fonts/woff/Botuna-Bold.woff') format('woff');
-  unicode-range: U+0041-005A, U+0061-007A; /* A–Z, a–z only */
+  font-family: 'Bravecho';
+  src: url('/fonts/Bravecho.woff2') format('woff2'),
+       url('/fonts/Bravecho.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Meroona';
+  src: url('/fonts/MeroonaDisplaySerif.woff2') format('woff2'),
+       url('/fonts/MeroonaDisplaySerif.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
   background-color: #000;
   color: #b8860b;
-  font-family: 'BotunaLimited', Georgia, 'Times New Roman', serif;
+  font-family: 'Meroona', Georgia, 'Times New Roman', serif;
   text-align: center;
   padding: 50px;
 }
 
 h1, h2 {
+  font-family: 'Bravecho', Georgia, serif;
   margin-bottom: 20px;
 }
 
