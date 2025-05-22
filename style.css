@@ -27,7 +27,7 @@ html, body {
   margin: 0;
   padding: 2rem;
   background: #111;
-  color: #e6c200
+  color: #90824b;
   font-family: 'Meroona', Georgia, 'Times New Roman', serif;
   font-size: 18px;
   line-height: 1.6;
@@ -39,7 +39,7 @@ h1 {
   font-size: 2.5em;
   font-weight: normal;
   margin-bottom: 1rem;
-  color: #e6c200
+  color: #90824b;
 }
 
 h2 {
@@ -47,19 +47,19 @@ h2 {
   font-size: 1.8em;
   font-weight: normal;
   margin-bottom: 1rem;
-  color: #e6c200
+  color: #90824b;
 }
 
 h3 {
   font-family: 'Bravecho', serif;
   font-size: 1.4em;
   font-weight: normal;
-  color: #e6c200; 
+  ccolor: #90824b;
 }
 
 p {
   font-size: 1.2em;
-  color: #FFD700;
+  color: #90824b;
 }
 
 a {
