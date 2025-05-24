@@ -50,11 +50,11 @@ h2 {
   color: #90824b;
 }
 
-h3 {
-  font-family: 'Bravecho', serif;
-  font-size: 1.4em;
-  font-weight: normal;
+h3 a {
   color: #90824b;
+  text-decoration: none;
+  font-family: 'Bravecho', serif;
+  transition: color 0.3s ease;
 }
 
 h3 a:hover {
