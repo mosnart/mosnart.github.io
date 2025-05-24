@@ -57,6 +57,11 @@ h3 {
   color: #90824b;
 }
 
+h3 a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 h4 {
   font-family: 'Meroona', Georgia, serif;
   font-size: 1.8em;
