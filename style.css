@@ -63,18 +63,15 @@ p {
   color: #90824b;
   text-decoration: none;
 }
-  
-a {
-  font-family: 'Meroona', Georgia, serif;
-  font-size: 1.5em;
-  color: #90824b;
+
+p a {
+  font-size: inherit; /* ensures no double-scaling */
   text-decoration: none;
+  color: #90824b;
 }
 
-a:hover {
-  font-size: 1.5em;
-  color: #ffffff;  /* white on hover */
-  text-decoration: none;
+p a:hover {
+  color: #ffffff;
 }
 
 /* 3-Column Layout */
