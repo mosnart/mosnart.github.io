@@ -79,6 +79,7 @@ p a {
 
 p a:hover {
   color: #ffffff;
+  text-decoration: none;
 }
 
 /* 3-Column Layout */
