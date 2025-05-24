@@ -57,9 +57,16 @@ h3 {
   color: #90824b;
 }
 
-p {
+h4 {
   font-family: 'Meroona', Georgia, serif;
   font-size: 1.8em;
+  color: #90824b;
+  text-decoration: none;
+}
+
+p {
+  font-family: 'Meroona', Georgia, serif;
+  font-size: 1.5em;
   color: #90824b;
   text-decoration: none;
 }
